@@ -2,6 +2,10 @@
 #input : number
 #output : prime or not
 #logic : use the mod function to get reminder till half of the number given
+#algorithm : get the input number
+#if less than 1 print not prime
+#in for loop in the range 2 to root of number 
+# evaluate the mod function 
 
 a = int(input("enter a number:"))
 if a <=1:
